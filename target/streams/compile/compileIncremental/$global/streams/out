@@ -1,1 +1,51 @@
-[debug] No changes
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(mynewpack.UI)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(mynewpack.UI)
+[debug] All initially invalidated sources:Set(C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala)
+[info] Compiling 1 Scala source to C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6
+[debug] [zinc] Running cached compiler 52f7a978 for Scala compiler version 2.12.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Java\jdk1.8.0_172\jre\classes;C:\Users\Archana\.sbt\boot\scala-2.12.6\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes;C:\Users\Archana\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.1.0.jar;C:\Users\Archana\.ivy2\cache\org.scala-lang\scala-swing\jars\scala-swing-2.10.7.jar
+[debug] Scala compilation took 4.79547752 s
+[info] Done compiling.
+[debug] Invalidating (transitively) by inheritance from mynewpack.UI...
+[debug] Initial set of included nodes: Set(mynewpack.UI)
+[debug] Invalidated by transitive inheritance dependency: Set(mynewpack.UI)
+[debug] Change NamesChange(mynewpack.UI,ModifiedNames(changes = UsedName(resizable,[Default]), UsedName(uniconify,[Default]), UsedName(self,[Default]), UsedName(maximumSize,[Default]), UsedName(bounds,[Default]), UsedName(showing,[Default]), UsedName(contents,[Default]), UsedName(defaultButton_=,[Default]), UsedName(font,[Default]), UsedName(menuBar_=,[Default]), UsedName(bounds_=,[Default]), UsedName(font_=,[Default]), UsedName(repaint,[Default]), UsedName(pack,[Default]), UsedName(cursor,[Default]), UsedName(locationOnScreen,[Default]), UsedName(locale,[Default]), UsedName(size,[Default]), UsedName(open,[Default]), UsedName(closeOperation,[Default]), UsedName(maximized,[Default]), UsedName(cursor_=,[Default]), UsedName(maximize,[Default]), UsedName(InterfaceMixin,[Default]), UsedName(setLocationRelativeTo,[Default]), UsedName(unsubscribe,[Default]), UsedName(onFirstSubscribe,[Default]), UsedName(preferredSize_=,[Default]), UsedName(background,[Default]), UsedName(hashCode,[Default]), UsedName(iconImage_=,[Default]), UsedName(menuBar,[Default]), UsedName(UI,[Default]), UsedName(ignoreRepaint,[Default]), UsedName(owner,[Default]), UsedName(iconified,[Default]), UsedName(toolkit,[Default]), UsedName(SuperMixin,[Default]), UsedName(equals,[Default]), UsedName(onLastUnsubscribe,[Default]), UsedName(title,[Default]), UsedName(background_=,[Default]), UsedName(minimumSize,[Default]), UsedName(preferredSize,[Default]), UsedName(listenTo,[Default]), UsedName(iconify,[Default]), UsedName($init$,[Default]), UsedName(close,[Default]), UsedName(location_=,[Default]), UsedName(displayable,[Default]), UsedName(foreground,[Default]), UsedName(visible,[Default]), UsedName(resizable_=,[Default]), UsedName(deafTo,[Default]), UsedName(maximumSize_=,[Default]), UsedName(listeners,[Default]), UsedName(contents_=,[Default]), UsedName(size_=,[Default]), UsedName(iconImage,[Default]), UsedName(title_=,[Default]), UsedName(foreground_=,[Default]), UsedName(underlying,[Default]), UsedName(ignoreRepaint_=,[Default]), UsedName(toString,[Default]), UsedName(centerOnScreen,[Default]), UsedName(subscribe,[Default]), UsedName(location,[Default]), UsedName(minimumSize_=,[Default]), UsedName(reactions,[Default]), UsedName(dispose,[Default]), UsedName(peer,[Default]), UsedName(publish,[Default]), UsedName(visible_=,[Default]), UsedName(defaultButton,[Default]), UsedName(unmaximize,[Default]))) invalidates 1 classes due to The mynewpack.UI has the following regular definitions changed:
+[debug] 	UsedName(resizable,[Default]), UsedName(uniconify,[Default]), UsedName(self,[Default]), UsedName(maximumSize,[Default]), UsedName(bounds,[Default]), UsedName(showing,[Default]), UsedName(contents,[Default]), UsedName(defaultButton_=,[Default]), UsedName(font,[Default]), UsedName(menuBar_=,[Default]), UsedName(bounds_=,[Default]), UsedName(font_=,[Default]), UsedName(repaint,[Default]), UsedName(pack,[Default]), UsedName(cursor,[Default]), UsedName(locationOnScreen,[Default]), UsedName(locale,[Default]), UsedName(size,[Default]), UsedName(open,[Default]), UsedName(closeOperation,[Default]), UsedName(maximized,[Default]), UsedName(cursor_=,[Default]), UsedName(maximize,[Default]), UsedName(InterfaceMixin,[Default]), UsedName(setLocationRelativeTo,[Default]), UsedName(unsubscribe,[Default]), UsedName(onFirstSubscribe,[Default]), UsedName(preferredSize_=,[Default]), UsedName(background,[Default]), UsedName(hashCode,[Default]), UsedName(iconImage_=,[Default]), UsedName(menuBar,[Default]), UsedName(UI,[Default]), UsedName(ignoreRepaint,[Default]), UsedName(owner,[Default]), UsedName(iconified,[Default]), UsedName(toolkit,[Default]), UsedName(SuperMixin,[Default]), UsedName(equals,[Default]), UsedName(onLastUnsubscribe,[Default]), UsedName(title,[Default]), UsedName(background_=,[Default]), UsedName(minimumSize,[Default]), UsedName(preferredSize,[Default]), UsedName(listenTo,[Default]), UsedName(iconify,[Default]), UsedName($init$,[Default]), UsedName(close,[Default]), UsedName(location_=,[Default]), UsedName(displayable,[Default]), UsedName(foreground,[Default]), UsedName(visible,[Default]), UsedName(resizable_=,[Default]), UsedName(deafTo,[Default]), UsedName(maximumSize_=,[Default]), UsedName(listeners,[Default]), UsedName(contents_=,[Default]), UsedName(size_=,[Default]), UsedName(iconImage,[Default]), UsedName(title_=,[Default]), UsedName(foreground_=,[Default]), UsedName(underlying,[Default]), UsedName(ignoreRepaint_=,[Default]), UsedName(toString,[Default]), UsedName(centerOnScreen,[Default]), UsedName(subscribe,[Default]), UsedName(location,[Default]), UsedName(minimumSize_=,[Default]), UsedName(reactions,[Default]), UsedName(dispose,[Default]), UsedName(peer,[Default]), UsedName(publish,[Default]), UsedName(visible_=,[Default]), UsedName(defaultButton,[Default]), UsedName(unmaximize,[Default]).
+[debug] 	> by transitive inheritance: Set(mynewpack.UI)
+[debug] 	> 
+[debug] 	> 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from mynewpack.GUIProgram...
+[debug] Initial set of included nodes: Set(mynewpack.GUIProgram)
+[debug] Invalidated by transitive inheritance dependency: Set(mynewpack.GUIProgram)
+[debug] Change NamesChange(mynewpack.GUIProgram,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(GUIProgram,[Default]), UsedName(wait,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(##,[Default]), UsedName(==,[Default]), UsedName(ne,[Default]), UsedName($asInstanceOf,[Default]))) invalidates 1 classes due to The mynewpack.GUIProgram has the following regular definitions changed:
+[debug] 	UsedName(synchronized,[Default]), UsedName(GUIProgram,[Default]), UsedName(wait,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(main,[Default]), UsedName(notify,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(eq,[Default]), UsedName(##,[Default]), UsedName(==,[Default]), UsedName(ne,[Default]), UsedName($asInstanceOf,[Default]).
+[debug] 	> by transitive inheritance: Set(mynewpack.GUIProgram)
+[debug] 	> 
+[debug] 	> 
+[debug]         
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated classes after taking into account (previously) recompiled classes:Set()

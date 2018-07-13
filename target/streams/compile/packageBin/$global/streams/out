@@ -1,1 +1,35 @@
-[debug] Jar uptodate: C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\sbtproject_2.12-0.1.jar
+[info] Packaging C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\sbtproject_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	mynewpack\Main$Add$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Add$.class
+[debug] 	mynewpack\Main$Multiply$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Multiply$.class
+[debug] 	mynewpack\UI.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\UI.class
+[debug] 	mynewpack\Main.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main.class
+[debug] 	mynewpack\Main$delayedInit$body.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$delayedInit$body.class
+[debug] 	mynewpack\Main$Subtract$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Subtract$.class
+[debug] 	mynewpack\Main$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$.class
+[debug] 	mynewpack
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack
+[debug] 	mynewpack\Main$Multiply.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Multiply.class
+[debug] 	mynewpack\Main$Subtract.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Subtract.class
+[debug] 	mynewpack\Main$Operation.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Operation.class
+[debug] 	mynewpack\Main$Add.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Add.class
+[debug] 	mynewpack\GUIProgram.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\GUIProgram.class
+[debug] 	mynewpack\Main$Divide$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Divide$.class
+[debug] 	mynewpack\GUIProgram$.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\GUIProgram$.class
+[debug] 	mynewpack\Main$Divide.class
+[debug] 	  C:\Users\Archana\IdeaProjects\SbtProject\target\scala-2.12\classes\mynewpack\Main$Divide.class
+[info] Done packaging.

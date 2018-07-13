@@ -1,4 +1,19 @@
-[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\Main.scala:28:1: illegal start of simple expression
-[error] }
-[error] ^
-[error] one error found
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:3:14: object swing is not a member of package scala
+[error] import scala.swing._
+[error]              ^
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:5:19: not found: type MainFrame
+[error] class UI extends  MainFrame {
+[error]                   ^
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:7:3: not found: value title
+[error]   title = "GUI Program #1"
+[error]   ^
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:8:3: not found: value preferredSize
+[error]   preferredSize = new Dimension(320, 240)
+[error]   ^
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:9:3: not found: value contents
+[error]   contents = new Label("Here is the contents!")
+[error]   ^
+[error] C:\Users\Archana\IdeaProjects\SbtProject\src\main\scala\mynewpack\UI.scala:17:11: value visible is not a member of mynewpack.UI
+[error]     uiobj.visible =true
+[error]           ^
+[error] 6 errors found

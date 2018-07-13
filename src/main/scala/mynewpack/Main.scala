@@ -5,12 +5,7 @@ package mynewpack
 object Main extends App{
 
   val listA = List(34,54,62,24,56)
-  println(listA.max)
-  println(s"The max number is ${listA.max}")
-  print("AM")
-
-  val ages = Seq(42, 75, 29, 64)
-  println(s"The oldest person is ${ages.max}")
+  //println(s"The max number is ${listA.max}")
 
   def calc(a:String,b:Int,c:Int) : Int= {
 
@@ -21,10 +16,32 @@ object Main extends App{
     else b/c
   }
 
- 
-
   val divide = (x:Double) => 100/x
-  println(divide(0))
+  //println(divide(0))
+
+  abstract class Operation
+
+  case class Add(a:Int,b:Int) extends Operation
+  case class Subtract(a:Int,b:Int) extends Operation
+  case class Multiply(a:Int,b:Int) extends Operation
+  case class Divide(a:Int,b:Int) extends Operation
+
+
+  def calculator(operation:Operation) :Int = operation match {
+
+    case Add(a,b) => a+ b
+    case Subtract(a,b)=>if(a>b) a-b else b-a
+    case Multiply(a,b)=> a*b
+    case Divide(a,b)=> if(b!=0) a/b else 0
+  }
+
+  val q = Divide(2,0)
+  println(calculator(q))
+
+
+  val li = List(1,2,3,4,5)
+
+  println(li.isDefinedAt(0))
 }
 
 

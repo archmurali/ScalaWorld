@@ -7,8 +7,20 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180713094507"/>
+		date="20180713182600"/>
 	<dependencies>
+		<module organisation="org.scala-lang" name="scala-swing">
+			<revision name="2.10.7" status="release" pubdate="20171103160720" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.7/" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2844" time="0" location="C:\Users\Archana\.ivy2\cache\org.scala-lang\scala-swing\ivy-2.10.7.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7.pom"/>
+				<caller organisation="default" name="sbtproject_2.12" conf="compile, runtime" rev="2.10+" rev-constraint-default="2.10+" rev-constraint-dynamic="2.10+" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-swing" type="jar" ext="jar" status="no" details="" size="707295" time="0" location="C:\Users\Archana\.ivy2\cache\org.scala-lang\scala-swing\jars\scala-swing-2.10.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-swing/2.10.7/scala-swing-2.10.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
 			<revision name="1.1.0" status="release" pubdate="20180201161040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
@@ -27,6 +39,7 @@
 				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Archana\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
 				<caller organisation="default" name="sbtproject_2.12" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="1.1.0"/>
+				<caller organisation="org.scala-lang" name="scala-swing" conf="default, compile, runtime, master" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="2.10.7"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5267302" time="0" location="C:\Users\Archana\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar"/>
